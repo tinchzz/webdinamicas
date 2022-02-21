@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+	background: black;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+form
+{
+	color: white;
+    width: 100%;
+    text-align:center;
+    font-family: Source Sans Pro;
+}
+p
+{
+  font-size: 20px;
+  font-family:Source Sans Pro;
+  color: white;
+}
+input
+{
+  font-size: 20px;
+  font-family:Source Sans Pro;
+  color: white;  
+}
+input[name="enviar"], input[value="Borrar"]{
+	color: black;
+	width: 30%;
+}
+footer {
+	position: fixed;
+	bottom: 5px;
+	text-align: center;
+	width: 100%;
+}
+@media (max-width: 425px) {
+	h1 {
+		font-size: 23px;
+	}
+	p {
+		font-size: 19px;
+	}
+	input {
+		font-size: 16px;
+	}
+}
+@media (max-width: 320px) {
+	h1 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 20px;
+	}
+	input {
+		font-size: 13px;
+	}
+}
+@media (max-width: 768px) {
+	input[name="enviar"], input[value="Borrar"] {
+	color: black;
+	width: 55%;
+	}
+}
